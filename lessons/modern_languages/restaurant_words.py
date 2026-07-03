@@ -1,0 +1,322 @@
+restaurant_words = [
+    {
+        "id": 1,
+        "en": "Menu",
+        "es": "Menú",
+        "ja": "メニュー",
+        "fr": "Menu",
+        "de": "Speisekarte",
+        "ar": "قائمة الطعام",
+        "nl": "Menu",
+        "ru": "Меню",
+        "difficulty": 1,
+        "category": "object",
+        "pronunciation": {
+            "es": "meh-NOO",
+            "ja": "menyū",
+            "fr": "meh-NEW",
+            "de": "SHPY-zuh-kar-tuh",
+            "ar": "",
+            "nl": "meh-NEW",
+            "ru": "meh-NYOO"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 2,
+        "en": "Table",
+        "es": "Mesa",
+        "ja": "テーブル",
+        "fr": "Table",
+        "de": "Tisch",
+        "ar": "طاولة",
+        "nl": "Tafel",
+        "ru": "Стол",
+        "difficulty": 1,
+        "category": "object",
+        "pronunciation": {
+            "es": "MEH-sah",
+            "ja": "tēburu",
+            "fr": "tah-bl",
+            "de": "TISH",
+            "ar": "",
+            "nl": "TAH-fel",
+            "ru": "STOHL"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 3,
+        "en": "Chair",
+        "es": "Silla",
+        "ja": "椅子",
+        "fr": "Chaise",
+        "de": "Stuhl",
+        "ar": "كرسي",
+        "nl": "Stoel",
+        "ru": "Стул",
+        "difficulty": 1,
+        "category": "object",
+        "pronunciation": {
+            "es": "SEE-yah",
+            "ja": "isu",
+            "fr": "shez",
+            "de": "SHTOOL",
+            "ar": "",
+            "nl": "STOOL",
+            "ru": "STOOL"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 4,
+        "en": "Plate",
+        "es": "Plato",
+        "ja": "皿",
+        "fr": "Assiette",
+        "de": "Teller",
+        "ar": "طبق",
+        "nl": "Bord",
+        "ru": "Тарелка",
+        "difficulty": 1,
+        "category": "object",
+        "pronunciation": {
+            "es": "PLAH-toh",
+            "ja": "sara",
+            "fr": "ah-syet",
+            "de": "TEL-er",
+            "ar": "",
+            "nl": "BORT",
+            "ru": "tah-RYEL-kah"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 5,
+        "en": "Fork",
+        "es": "Tenedor",
+        "ja": "フォーク",
+        "fr": "Fourchette",
+        "de": "Gabel",
+        "ar": "شوكة",
+        "nl": "Vork",
+        "ru": "Вилка",
+        "difficulty": 1,
+        "category": "utensil",
+        "pronunciation": {
+            "es": "teh-neh-DOR",
+            "ja": "fōku",
+            "fr": "foor-SHET",
+            "de": "GAH-bel",
+            "ar": "",
+            "nl": "VORK",
+            "ru": "VEEL-kah"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 6,
+        "en": "Knife",
+        "es": "Cuchillo",
+        "ja": "ナイフ",
+        "fr": "Couteau",
+        "de": "Messer",
+        "ar": "سكين",
+        "nl": "Mes",
+        "ru": "Нож",
+        "difficulty": 1,
+        "category": "utensil",
+        "pronunciation": {
+            "es": "koo-CHEE-yoh",
+            "ja": "naifu",
+            "fr": "koo-TOH",
+            "de": "MESS-er",
+            "ar": "",
+            "nl": "MES",
+            "ru": "NOZH"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 7,
+        "en": "Spoon",
+        "es": "Cuchara",
+        "ja": "スプーン",
+        "fr": "Cuillère",
+        "de": "Löffel",
+        "ar": "ملعقة",
+        "nl": "Lepel",
+        "ru": "Ложка",
+        "difficulty": 1,
+        "category": "utensil",
+        "pronunciation": {
+            "es": "koo-CHAH-rah",
+            "ja": "supūn",
+            "fr": "kwee-YAIR",
+            "de": "LUF-el",
+            "ar": "",
+            "nl": "LAY-pel",
+            "ru": "LOZH-kah"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 8,
+        "en": "Water",
+        "es": "Agua",
+        "ja": "水",
+        "fr": "Eau",
+        "de": "Wasser",
+        "ar": "ماء",
+        "nl": "Water",
+        "ru": "Вода",
+        "difficulty": 1,
+        "category": "drink",
+        "pronunciation": {
+            "es": "AH-gwah",
+            "ja": "mizu",
+            "fr": "oh",
+            "de": "VAH-ser",
+            "ar": "",
+            "nl": "VAH-ter",
+            "ru": "vah-DAH"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 9,
+        "en": "Bill",
+        "es": "Cuenta",
+        "ja": "お会計",
+        "fr": "Addition",
+        "de": "Rechnung",
+        "ar": "الحساب",
+        "nl": "Rekening",
+        "ru": "Счёт",
+        "difficulty": 1,
+        "category": "payment",
+        "pronunciation": {
+            "es": "KWEN-tah",
+            "ja": "okaikei",
+            "fr": "ah-dee-SYON",
+            "de": "REKH-noong",
+            "ar": "",
+            "nl": "REH-keh-ning",
+            "ru": "SHCHYOT"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 10,
+        "en": "Delicious",
+        "es": "Delicioso",
+        "ja": "おいしい",
+        "fr": "Délicieux",
+        "de": "Lecker",
+        "ar": "لذيذ",
+        "nl": "Heerlijk",
+        "ru": "Вкусно",
+        "difficulty": 1,
+        "category": "adjective",
+        "pronunciation": {
+            "es": "deh-lee-see-OH-so",
+            "ja": "oishii",
+            "fr": "day-lee-see-UH",
+            "de": "LEK-er",
+            "ar": "",
+            "nl": "HAYR-lik",
+            "ru": "FKOOS-no"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    }
+]

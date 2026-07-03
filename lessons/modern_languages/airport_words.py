@@ -1,0 +1,322 @@
+airport_words = [
+    {
+        "id": 1,
+        "en": "Passport",
+        "es": "Pasaporte",
+        "ja": "パスポート",
+        "fr": "Passeport",
+        "de": "Reisepass",
+        "ar": "جواز السفر",
+        "nl": "Paspoort",
+        "ru": "Паспорт",
+        "difficulty": 1,
+        "category": "document",
+        "pronunciation": {
+            "es": "pah-sah-POR-teh",
+            "ja": "pasupōto",
+            "fr": "pass-por",
+            "de": "RYE-zuh-pass",
+            "ar": "",
+            "nl": "PAS-port",
+            "ru": "PAS-port"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 2,
+        "en": "Ticket",
+        "es": "Billete",
+        "ja": "チケット",
+        "fr": "Billet",
+        "de": "Ticket",
+        "ar": "تذكرة",
+        "nl": "Ticket",
+        "ru": "Билет",
+        "difficulty": 1,
+        "category": "document",
+        "pronunciation": {
+            "es": "bee-YEH-teh",
+            "ja": "chiketto",
+            "fr": "bee-YAY",
+            "de": "TIK-et",
+            "ar": "",
+            "nl": "TIK-et",
+            "ru": "bee-LYET"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 3,
+        "en": "Boarding Pass",
+        "es": "Tarjeta de embarque",
+        "ja": "搭乗券",
+        "fr": "Carte d'embarquement",
+        "de": "Boardingpass",
+        "ar": "بطاقة الصعود",
+        "nl": "Instapkaart",
+        "ru": "Посадочный талон",
+        "difficulty": 1,
+        "category": "document",
+        "pronunciation": {
+            "es": "tar-HEH-tah deh em-bar-KAY",
+            "ja": "tōjōken",
+            "fr": "kart dom-bar-kuh-MAHN",
+            "de": "BOR-ding-pass",
+            "ar": "",
+            "nl": "IN-stap-kart",
+            "ru": "pah-sah-DOCH-nee tah-LON"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 4,
+        "en": "Airport",
+        "es": "Aeropuerto",
+        "ja": "空港",
+        "fr": "Aéroport",
+        "de": "Flughafen",
+        "ar": "مطار",
+        "nl": "Luchthaven",
+        "ru": "Аэропорт",
+        "difficulty": 1,
+        "category": "location",
+        "pronunciation": {
+            "es": "ah-eh-roo-PWER-toh",
+            "ja": "kūkō",
+            "fr": "air-oh-por",
+            "de": "FLOOK-hah-fen",
+            "ar": "",
+            "nl": "LUKH-hah-fun",
+            "ru": "ah-eh-ro-PORT"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 5,
+        "en": "Gate",
+        "es": "Puerta",
+        "ja": "ゲート",
+        "fr": "Porte",
+        "de": "Gate",
+        "ar": "بوابة",
+        "nl": "Gate",
+        "ru": "Выход",
+        "difficulty": 1,
+        "category": "location",
+        "pronunciation": {
+            "es": "PWER-tah",
+            "ja": "gēto",
+            "fr": "port",
+            "de": "GAYT",
+            "ar": "",
+            "nl": "GAYT",
+            "ru": "VY-hut"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+        {
+        "id": 6,
+        "en": "Terminal",
+        "es": "Terminal",
+        "ja": "ターミナル",
+        "fr": "Terminal",
+        "de": "Terminal",
+        "ar": "مبنى الركاب",
+        "nl": "Terminal",
+        "ru": "Терминал",
+        "difficulty": 1,
+        "category": "location",
+        "pronunciation": {
+            "es": "ter-mee-NAL",
+            "ja": "tāminaru",
+            "fr": "ter-mee-NAL",
+            "de": "ter-mee-NAHL",
+            "ar": "",
+            "nl": "ter-mee-NAL",
+            "ru": "ter-mee-NAL"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 7,
+        "en": "Security",
+        "es": "Seguridad",
+        "ja": "保安検査",
+        "fr": "Sécurité",
+        "de": "Sicherheitskontrolle",
+        "ar": "الأمن",
+        "nl": "Beveiliging",
+        "ru": "Контроль безопасности",
+        "difficulty": 1,
+        "category": "location",
+        "pronunciation": {
+            "es": "seh-goo-ree-DAD",
+            "ja": "hoan-kensa",
+            "fr": "say-kew-ree-TAY",
+            "de": "ZIH-kher-hites-kon-TROL-uh",
+            "ar": "",
+            "nl": "beh-VAY-lih-ghing",
+            "ru": "kon-TROL be-zah-PAS-nos-tee"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 8,
+        "en": "Baggage",
+        "es": "Equipaje",
+        "ja": "荷物",
+        "fr": "Bagages",
+        "de": "Gepäck",
+        "ar": "الأمتعة",
+        "nl": "Bagage",
+        "ru": "Багаж",
+        "difficulty": 1,
+        "category": "object",
+        "pronunciation": {
+            "es": "eh-kee-PAH-heh",
+            "ja": "nimotsu",
+            "fr": "bah-GAHZH",
+            "de": "geh-PECK",
+            "ar": "",
+            "nl": "bah-GAH-zhuh",
+            "ru": "bah-GAZH"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 9,
+        "en": "Departure",
+        "es": "Salida",
+        "ja": "出発",
+        "fr": "Départ",
+        "de": "Abflug",
+        "ar": "المغادرة",
+        "nl": "Vertrek",
+        "ru": "Вылет",
+        "difficulty": 1,
+        "category": "travel",
+        "pronunciation": {
+            "es": "sah-LEE-dah",
+            "ja": "shuppatsu",
+            "fr": "day-PAR",
+            "de": "AHP-flook",
+            "ar": "",
+            "nl": "ver-TREK",
+            "ru": "VIH-let"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 10,
+        "en": "Arrival",
+        "es": "Llegada",
+        "ja": "到着",
+        "fr": "Arrivée",
+        "de": "Ankunft",
+        "ar": "الوصول",
+        "nl": "Aankomst",
+        "ru": "Прибытие",
+        "difficulty": 1,
+        "category": "travel",
+        "pronunciation": {
+            "es": "yeh-GAH-dah",
+            "ja": "tōchaku",
+            "fr": "ah-ree-VAY",
+            "de": "AHN-koonft",
+            "ar": "",
+            "nl": "AHN-komst",
+            "ru": "pree-BIH-tee-yeh"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    }
+]

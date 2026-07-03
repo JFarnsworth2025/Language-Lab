@@ -1,0 +1,322 @@
+coffee_words = [
+    {
+        "id": 1,
+        "en": "Coffee",
+        "es": "Café",
+        "ja": "コーヒー",
+        "fr": "Café",
+        "de": "Kaffee",
+        "ar": "قهوة",
+        "nl": "Koffie",
+        "ru": "Кофе",
+        "difficulty": 1,
+        "category": "drink",
+        "pronunciation": {
+            "es": "kah-FEH",
+            "ja": "kō-hī",
+            "fr": "kah-FAY",
+            "de": "KAH-fee",
+            "ar": "",
+            "nl": "KOFF-ee",
+            "ru": "KOH-fye"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 2,
+        "en": "Milk",
+        "es": "Leche",
+        "ja": "牛乳",
+        "fr": "Lait",
+        "de": "Milch",
+        "ar": "حليب",
+        "nl": "Melk",
+        "ru": "Молоко",
+        "difficulty": 1,
+        "category": "ingredient",
+        "pronunciation": {
+            "es": "LEH-cheh",
+            "ja": "gyū-nyū",
+            "fr": "leh",
+            "de": "milkh",
+            "ar": "",
+            "nl": "melk",
+            "ru": "muh-lah-KOH"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 3,
+        "en": "Cup",
+        "es": "Taza",
+        "ja": "カップ",
+        "fr": "Tasse",
+        "de": "Tasse",
+        "ar": "كوب",
+        "nl": "Kop",
+        "ru": "Чашка",
+        "difficulty": 1,
+        "category": "object",
+        "pronunciation": {
+            "es": "TAH-sah",
+            "ja": "kappu",
+            "fr": "tahs",
+            "de": "TAH-suh",
+            "ar": "",
+            "nl": "kop",
+            "ru": "CHASH-kah"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 4,
+        "en": "Sugar",
+        "es": "Azúcar",
+        "ja": "砂糖",
+        "fr": "Sucre",
+        "de": "Zucker",
+        "ar": "سكر",
+        "nl": "Suiker",
+        "ru": "Сахар",
+        "difficulty": 1,
+        "category": "ingredient",
+        "pronunciation": {
+            "es": "ah-SOO-kar",
+            "ja": "satō",
+            "fr": "soo-KR",
+            "de": "TSOO-ker",
+            "ar": "",
+            "nl": "SOY-ker",
+            "ru": "SAH-khar"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 5,
+        "en": "Cream",
+        "es": "Crema",
+        "ja": "クリーム",
+        "fr": "Crème",
+        "de": "Sahne",
+        "ar": "كريمة",
+        "nl": "Room",
+        "ru": "Сливки",
+        "difficulty": 1,
+        "category": "ingredient",
+        "pronunciation": {
+            "es": "KRAY-mah",
+            "ja": "kurīmu",
+            "fr": "krem",
+            "de": "ZAH-nuh",
+            "ar": "",
+            "nl": "rohm",
+            "ru": "SLEEV-kee"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 6,
+        "en": "Latte",
+        "es": "Latte",
+        "ja": "ラテ",
+        "fr": "Latte",
+        "de": "Latte",
+        "ar": "لاتيه",
+        "nl": "Latte",
+        "ru": "Латте",
+        "difficulty": 1,
+        "category": "drink",
+        "pronunciation": {
+            "es": "LAH-teh",
+            "ja": "rate",
+            "fr": "lah-tay",
+            "de": "LAH-teh",
+            "ar": "",
+            "nl": "LAH-tuh",
+            "ru": "LAH-teh"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 7,
+        "en": "Espresso",
+        "es": "Espresso",
+        "ja": "エスプレッソ",
+        "fr": "Espresso",
+        "de": "Espresso",
+        "ar": "إسبريسو",
+        "nl": "Espresso",
+        "ru": "Эспрессо",
+        "difficulty": 1,
+        "category": "drink",
+        "pronunciation": {
+            "es": "es-PRES-so",
+            "ja": "esupuresso",
+            "fr": "es-press-O",
+            "de": "es-PRES-so",
+            "ar": "",
+            "nl": "es-PRES-so",
+            "ru": "es-PRES-so"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 8,
+        "en": "Barista",
+        "es": "Barista",
+        "ja": "バリスタ",
+        "fr": "Barista",
+        "de": "Barista",
+        "ar": "باريستا",
+        "nl": "Barista",
+        "ru": "Бариста",
+        "difficulty": 1,
+        "category": "person",
+        "pronunciation": {
+            "es": "bah-REES-tah",
+            "ja": "barisuta",
+            "fr": "bah-ree-stah",
+            "de": "bah-REES-tah",
+            "ar": "",
+            "nl": "bah-RIS-tah",
+            "ru": "bah-REES-ta"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 9,
+        "en": "To Go",
+        "es": "Para llevar",
+        "ja": "持ち帰り",
+        "fr": "À emporter",
+        "de": "Zum Mitnehmen",
+        "ar": "للأخذ",
+        "nl": "Om mee te nemen",
+        "ru": "С собой",
+        "difficulty": 1,
+        "category": "phrase",
+        "pronunciation": {
+            "es": "PAH-rah yeh-VAHR",
+            "ja": "mochi-kaeri",
+            "fr": "ah ahm-por-TAY",
+            "de": "tsoom MIT-nay-men",
+            "ar": "",
+            "nl": "om may tuh NAY-men",
+            "ru": "s soh-BOY"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    },
+    {
+        "id": 10,
+        "en": "Thank You",
+        "es": "Gracias",
+        "ja": "ありがとう",
+        "fr": "Merci",
+        "de": "Danke",
+        "ar": "شكراً",
+        "nl": "Dank je",
+        "ru": "Спасибо",
+        "difficulty": 1,
+        "category": "phrase",
+        "pronunciation": {
+            "es": "GRAH-see-ahs",
+            "ja": "ah-ree-gah-toh",
+            "fr": "mehr-SEE",
+            "de": "DAHN-kuh",
+            "ar": "",
+            "nl": "DAHNK yuh",
+            "ru": "spah-SEE-boh"
+        },
+        "audio": {
+            "en": "",
+            "es": "",
+            "ja": "",
+            "fr": "",
+            "de": "",
+            "ar": "",
+            "nl": "",
+            "ru": ""
+        }
+    }
+]
