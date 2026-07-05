@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 *.py[cod]
+profiles/
 
 # Virtual Environment
 .venv/
