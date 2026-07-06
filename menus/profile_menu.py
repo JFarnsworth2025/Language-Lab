@@ -1,4 +1,5 @@
 import json
+import uuid
 from pathlib import Path
 from data import languages
 
@@ -24,7 +25,10 @@ def create_profile():
     
     native_language = languages[language_choice]["code"]
 
+    profile_id = str(uuid.uuid4())
+
     profile = {
+        "id": profile_id,
         "name": name,
         "native_language": native_language
     }
@@ -36,7 +40,7 @@ def create_profile():
 
 def save_profile(profile):
     profiles_folder.mkdir(exist_ok=True)
-    filename = profile["name"] + ".json"
+    filename = profile["id"] + ".json"
     profile_path = profiles_folder / filename
 
     with profile_path.open("w", encoding="utf-8") as file:
@@ -63,6 +67,14 @@ def profile_selection():
 
 def load_profiles():
     profile_files = list(profiles_folder.glob("*.json"))
+    if len(profile_files) == 0:
+        print(
+             "=================\n"
+            "No profiles found.\n"
+            "=================\n"
+        )
+        return create_profile()
+
 
     print(
         "=================\n"
@@ -70,8 +82,11 @@ def load_profiles():
         "=================\n"
     )
 
-    for number, file in enumerate(profile_files, start=1): 
-        print(f"{number}. {file.stem}")
+    for number, profile_path in enumerate(profile_files, start=1):
+        with profile_path.open("r", encoding="utf-8") as profile_file:
+            profile = json.load(profile_file)
+
+    print(f"{number}. {profile['name']}")
     
     profile_choice = input("\nPleaase select a profile: ")
 
