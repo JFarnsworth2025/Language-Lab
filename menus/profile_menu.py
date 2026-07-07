@@ -75,7 +75,6 @@ def load_profiles():
         )
         return create_profile()
 
-
     print(
         "=================\n"
         "Available Profiles\n"
@@ -88,10 +87,24 @@ def load_profiles():
 
     print(f"{number}. {profile['name']}")
     
-    profile_choice = input("\nPleaase select a profile: ")
+    while True:
+        profile_choice = input("\nPleaase select a profile: ")
 
-    selected_file = profile_files[int(profile_choice) - 1]
+        try:
+            profile_choice = int(profile_choice)
 
-    with selected_file.open('r', encoding="utf-8") as file:
+        except ValueError:
+            print("Please enter a valid number.")
+            continue
+
+        if profile_choice < 1 or profile_choice > len(profile_files):
+            print("Please choose a valid profile.")
+            continue
+        break
+
+    selected_profile_path = profile_files[profile_choice - 1]
+    
+    with selected_profile_path.open('r', encoding="utf-8") as file:
         profile = json.load(file)
+    
     return profile
